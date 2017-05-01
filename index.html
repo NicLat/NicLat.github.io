@@ -1,1 +1,93 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="english">
+	<meta name="author" content="Nicola Latella">
+	<meta name="description" content="Nicola Latella's personal website: informations, curriculum vitae, works">
+	<meta name="keywords" content="nicola, latella, big brother rover, itis fermi mn, student, informatics, project, balcony, C, programming, unipv, pavia, engineering, university, bachelor, computer">
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="google-site-verification" content="-kW38JNR43b33oi1UxQqks7_CWgqBRYdmHhey9UZUGY" />
+    
+	<title>Nicola Latella's homepage</title>
+	
+	<!--<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />-->
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; }
+		a:hover { color: #e88383; }
+		.linkedin:hover { color: #66c2f1; }
+		.cv:hover { color: #b5f166; }
+		.projects:hover { color: #f9ec7d; }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about { width: 500px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.3; }
+		}
+	</style>
+	
+	<!-- google analytics code -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-40865640-1', 'nicolalatella.it');
+		ga('set', 'anonymizeIp', true);
+		ga('send', 'pageview');		
+	</script>
+</head>	
+    
+<body>
+
+	<!-- swap out for a logo -->
+	<div id="monogram">
+		<img src="monogram.png" />
+	</div>
+
+	<!-- swap out for information about yourself -->
+	<div id="about">
+		<p>Nicola Latella is studying for a master degree in <a href="http://eecs.unipv.it/degrees/computer-engineering/computer-science-multimedia/" alt="Computer Science and Multimedia">Computer Science and Multimedia</a> at the <a href="http://www.unipv.eu/" alt="University of Pavia">University of Pavia</a> and currently is an exchange student at the <a href="http://www.uni-paderborn.de/" alt="Paderborn University">Paderborn University</a>.</p> 
+		<p>He got a bachelor degree in <em>Electronic and Computer Engineering</em> at the <a href="http://www.unipv.eu/" alt="University of Pavia">University of Pavia</a>, <a href="http://www.unipv.it/ingegneria" alt="Faculty of Engineering">Faculty of Engineering</a>, and an Industrial Technical Institute Diploma as a <em>Computer Specialist</em> at <a href="http://www.fermimn.gov.it/" alt="'E. Fermi' High School, Mantua">'E. Fermi' High School, Mantua</a></p>
+		<p>Links to the <em>curriculum vitae</em>: <br>
+			- <a class="cv" href="http://www.nicolalatella.it/cv/Latella-CV-eng.pdf" alt="CV Nicola Latella English" target="_blank">English language</a><br>
+			- <a class="cv" href="http://www.nicolalatella.it/cv/Latella-CV-ita.pdf" alt="CV Nicola Latella Italiano" target="_blank">Italian language</a>
+		</p>
+		<p>
+			<a class="linkedin" href="http://linkedin.com/in/nicolalatella/" alt="Nicola Latella's linkedin">Linkedin Profile</a>
+		</p>
+		<p>Some projects or works:<br>
+			- High school thesis project: <a class="projects" href="http://www.nicolalatella.it/bigbrother/en/" alt="Big Brother">Big Brother</a><br>
+			- DOMO balcony project: <a class="projects" href="http://www.nicolalatella.it/balcony/doc.html" alt="DOMO balcony" >DOMO balcony</a> (out of order)<br>
+		</p>
+	</div>
+
+	<!--include jquery & backstretch-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			 $(window).resize(function(){
+				 //if($(this).width() >= 767){
+					 $.backstretch("bg_light.jpg", {speed: 150});
+				 //}
+			  })
+			  .resize();//trigger resize on page load
+		});
+	</script>
+
+</body>	
+</html>
