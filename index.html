@@ -33,17 +33,18 @@
 		@media (max-width: 767px) {
 			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
 			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.3; }
+			
 		}
 	</style>
 	
 </head>	
     
 <body>
+	<!-- <img src="bg.svg" id="bg" alt="Background image">  background-image { opacity: 0.3; }-->
 
 	<!-- logo -->
 	<div id="monogram">
-		<img src="monogram.png" />
+		<img src="nl.png" />
 	</div>
 
 	<!-- information -->
@@ -66,11 +67,13 @@
 	<!--jquery & backstretch-->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+	
+
 	<script type="text/javascript">
 		$(function(){
 			 $(window).resize(function(){
 				 //if($(this).width() >= 767){
-					 $.backstretch("bg_light.jpg", {speed: 150});
+					 $.backstretch("bg.svg", {speed: 10});
 				 //}
 			  })
 			  .resize();//trigger resize on page load
