@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg3356"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 744.09449 1052.3622"
+   sodipodi:docname="nl.svg"
+   inkscape:export-filename="/home/nicola/NicLat.github.io/nl.svg.png"
+   inkscape:export-xdpi="1511.7838"
+   inkscape:export-ydpi="1511.7838">
+  <defs
+     id="defs3358" />
+  <sodipodi:namedview
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="11.313709"
+     inkscape:cx="-1329.9602"
+     inkscape:cy="824.44555"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     id="namedview3360"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false">
+    <sodipodi:guide
+       position="-1319.7485,811.743"
+       orientation="0,1"
+       id="guide3382" />
+    <sodipodi:guide
+       position="-1315.5547,820.83986"
+       orientation="1,0"
+       id="guide3384" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3362">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="L"
+     style="opacity:0.508">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:100px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1317.2665"
+       y="240.6082"
+       id="text3373"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="1511.7838"
+       inkscape:export-ydpi="1511.7838"><tspan
+         sodipodi:role="line"
+         id="tspan3375"
+         x="-1317.2665"
+         y="240.6082"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:4px;fill:#ffffff">L</tspan></text>
+  </g>
+  <g
+     inkscape:label="N"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1">
+    <text
+       xml:space="preserve"
+       style="opacity:1;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:20.88000809px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1338.2354"
+       y="240.5975"
+       id="text3365"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="1511.7838"
+       inkscape:export-ydpi="1511.7838"><tspan
+         sodipodi:role="line"
+         id="tspan3367"
+         x="-1338.2354"
+         y="240.5975"
+         style="fill:#ffffff;letter-spacing:0.2px;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">N</tspan></text>
+  </g>
+</svg>
